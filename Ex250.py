@@ -15,4 +15,4 @@ for t in subnums:
     if numpy.sum(t) % 250 == 0:
         s+=1
 
-print(s[-16:])
+print(str(s)[-16:])
